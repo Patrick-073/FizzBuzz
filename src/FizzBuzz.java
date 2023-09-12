@@ -34,22 +34,27 @@ class FizzBuzz {
         public static void main(String[] args) {
                 int i = 1;
                 while (i <= 100) {
-                        boolean divide3 = i % 3 == 0;
-                        boolean divide5 = i % 5 == 0;
-                        if (divide3 && divide5) {
-                                System.out.println("Rizz Buzz");
-                        }
-                        else if (divide3){
-                                System.out.println("Rizz");
-                        }
-                        else if (divide5){
-                                System.out.println("Buzz");
-                        }
-                        else {
-                                System.out.println(i);
-                        }
-                        i++;
+                        i = doFizzBuzz(i);
                 }
+        }
+
+        private static int doFizzBuzz(int i) {
+                boolean divide3 = i % 3 == 0;
+                boolean divide5 = i % 5 == 0;
+                if (divide3 && divide5) {
+                        System.out.println("Rizz Buzz");
+                }
+                else if (divide3){
+                        System.out.println("Rizz");
+                }
+                else if (divide5){
+                        System.out.println("Buzz");
+                }
+                else {
+                        System.out.println(i);
+                }
+                i++;
+                return i;
         }
 }
 
