@@ -38,7 +38,7 @@ class FizzBuzz {
                 }
         }
 
-        private static int doFizzBuzz(int i) {
+        public static int doFizzBuzz(int i) {
                 boolean divide3 = i % 3 == 0;
                 boolean divide5 = i % 5 == 0;
                 if (divide3 && divide5) {
