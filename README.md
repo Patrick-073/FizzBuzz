@@ -10,12 +10,12 @@ https://github.com/CSC207-2023F-UofT/FizzBuzz/
 
 1. Make sure you are logged into GitHub. You should see a button that says `Fork` in the top-right corner of the page.
 Click this button to create a fork of this repository, which will be your own copy of the codebase to edit as you please.
-In the new page that comes up, confirm that you want to create the fork and your own FizzBuzz repository will be created
+In the new page that comes up, confirm that you want to create the fork and your own RizzBuzz repository will be created
 on GitHub!
 
 2. Now that you have your own fork of this repository, close this page, go to your fork, and continue with the next instructions.
 
-3. The next step is to get a local copy of your FizzBuzz repository on your own computer.
+3. The next step is to get a local copy of your RizzBuzz repository on your own computer.
 This is called **cloning** the repository.
 You can do this by clicking the green `Code` button in your FizzBuzz repository on GitHub and copying
 the HTTPS URL which you will see. You can copy it by clicking the little 'copy' button with the two rectangles on it.
